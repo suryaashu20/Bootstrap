@@ -104,5 +104,107 @@ The Bootstrap has given 12 css classes for each type of device.
             .container - margin from left and right side 
             .container-fluid - it has no margin. it cover 100% width 
             
+        4.inside container or container-fluid use the class 
+            .row(height is auto width is 100%)
+        5.inside the row follow above 72 classes
+            ->each row can hold min 1 colimn and max 12 colums in 1 line, if more than 12 cloumn it will print in new line.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    Classes for margin and padding 
+        m - margin 
+        p - padding
+        t - top
+        b - bottom
+        s - start(left)
+        e - end(right)
+
+        1 - 4px
+        2 - 8px
+        3 - 16px
+        4 - 24px
+        5 - 48px
+
+    for margin
+        .m-1, .m-2, .m-3, .m-4, .m-5
+        .mt-1, .mt-2, .mt-3, .mt-4, .mt-5
+        .mb-1, .mb-2, .mb-3, .mb-4, .mb-5
+        .ms-1, .ms-2, .ms-3, .ms-4, .ms-5
+        .me-1, .me-2, .me-3, .me-4, .me-5
+
+    for padding
+         .p-1, .p-2, .p-3, .p-4, .p-5
+        .pt-1, .pt-2, .pt-3, .pt-4, .pt-5
+        .pb-1, .pb-2, .pb-3, .pb-4, .pb-5
+        .ps-1, .ps-2, .ps-3, .ps-4, .ps-5
+        .pe-1, .pe-2, .pe-3, .pe-4, .pe-5
+
+------------------------------------------------------------------------------
+
+    Classes for text allignment
+        .text-start - left allign
+        .text-end - right allign 
+        .text-center - center allign 
+
+-----------------------------------------------------------------------------
+
+    Classes for box shadow 
+        .shadow
+        .shadow-lg
+------------------------------------------------------------------
+
+    classess for border radius
+        .rounded
+        .rounded-circle
+---------------------------------------------------------------------
+    Clasees for backgrounf color 
+        .bg-primary - blue 
+        .bg-info - skyblue
+        .bg-success - green 
+        .bg-danger - yellow
+        .bg-secondary - grey 
+        .bg-white - white
+        .bg-dark - black
+------------------------------------------------------------------------------
+    Classes for text color 
+        .text-primary - blue 
+        .text-info - skyblue
+        .text-success - green 
+        .text-danger - yellow
+        .text-secondary - grey 
+        .text-white - white
+        .text-dark - black
+-------------------------------------------------------------------------------
+    classes for Image 
+        .img-fluid (it control width of photo)
+        .img-thubnail(it apply border on image)
+------------------------------------------------------------------------------
+    Classes for card
+        .card
+        .card-header
+        .card-body
+        .card-footer
+
+---------------------------------------------------------------------------------------
+    Classes for table 
+        .table
+        .table-bordered
+        .table-striped
+        .table-sm
+        .table-hover
+--------------------------------------------------------------------------------------
+    Classess for Button
+        .btn-primary - blue 
+        .btn-info - skyblue
+        .btn-success - green 
+        .btn-danger - yellow
+        .btn-secondary - grey 
+        .btn-white - white
+        .btn-dark - black
+------------------------------------------------------------------------
+    Classes for input tags
+        .form-control(text,number, password, file,date,textarea...)
+        .form-select(select)
+
 
 
